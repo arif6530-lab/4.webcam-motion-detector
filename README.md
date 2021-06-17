@@ -1,1 +1,2 @@
 # 4.webcam-motion-detector
+This Python script starts the webcam and detects moving objects. As soons as a moving object is found, a rectangle gets drawn around it. When the user quits the program, a csv file gets created which contains the entry and exit date-time of objects. Along with this a bokeh chart also pops up, which shows the entry and exit date-time of the objects. Python libraries used in this application are OpenCv and bokeh
